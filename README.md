@@ -3,27 +3,12 @@
 </h1>
 
 <p align="center">
-  <img src="assets/langgraph.png" alt="Langgraph Workflow Diagram" style="max-width: 600px; width: 100%; height: auto;" />
+  <img src="assets/flow.png" alt="Langgraph Workflow Diagram" style="max-width: 800px; width: 100%; height: auto;" />
 </p>
 
 ## DeepGit
 
 **DeepGit** is an advanced, Langgraph-based agentic workflow designed to perform deep research across GitHub repositories. It intelligently searches, analyzes, and ranks repositories based on user intent—even uncovering less-known but highly relevant tools. DeepGit infuses hybrid dense retrieval with advanced cross-encoder re-ranking and comprehensive activity analysis into a unified, open-source platform for intelligent repository discovery
-
-## 🖥️ User Interface
-
-DeepGit provides an intuitive interface for exploring repository recommendations. The main page where users enter raw natural language query. This is the primary interaction point for initiating deep semantic searches.
-
-<p align="center">
-  <img src="assets/dashboard.png" alt="DeepGit Dashboard" style="max-width: 800px; width: 100%; height: auto;" />
-</p>
-
-*Output:* Showcases the tabulated results with clickable links and different threshold scores, making it easy to compare and understand the ranking criteria.
-
-
-<p align="center">
-  <img src="assets/output.png" alt="DeepGit App UI" style="max-width: 800px; width: 100%; height: auto;" />
-</p>
 
 ---
 
@@ -67,6 +52,22 @@ When a user submits a query, the **DeepGit Orchestrator Agent** takes over, pass
 
 ---
 
+## 🖥️ User Interface
+
+DeepGit provides an intuitive interface for exploring repository recommendations. The main page where users enter raw natural language query. This is the primary interaction point for initiating deep semantic searches.
+
+<p align="center">
+  <img src="assets/dashboard.png" alt="DeepGit Dashboard" style="max-width: 800px; width: 100%; height: auto;" />
+</p>
+
+*Output:* Showcases the tabulated results with clickable links and different threshold scores, making it easy to compare and understand the ranking criteria.
+
+
+<p align="center">
+  <img src="assets/output.png" alt="DeepGit App UI" style="max-width: 800px; width: 100%; height: auto;" />
+</p>
+
+---
 
 ### 🛠️ Running DeepGit
 
