@@ -39,7 +39,7 @@ When a user submits a query, the **DeepGit Orchestrator Agent** takes over, pass
 
 ---
 
-## 🚀 Goals
+### 🚀 Goals
 
 - **Uncover Hidden Gems:**  
   Surface powerful but under-the-radar open-source tools.
@@ -52,7 +52,7 @@ When a user submits a query, the **DeepGit Orchestrator Agent** takes over, pass
 
 ---
 
-## 🖥️ User Interface
+### 🖥️ User Interface
 
 DeepGit provides an intuitive interface for exploring repository recommendations. The main page where users enter raw natural language query. This is the primary interaction point for initiating deep semantic searches.
 
@@ -68,6 +68,52 @@ DeepGit provides an intuitive interface for exploring repository recommendations
 </p>
 
 ---
+
+### 🔧 Recommended Environment
+
+- **Python:** 3.11+ (The repo has been tested on Python 3.11.x)
+- **pip:** 24.0+ (Ensure you have an up-to-date pip version)
+
+---
+
+### 👨‍🏭 Setup Instructions
+
+#### 1. Clone the Repository
+```bash
+git clone https://github.com/zamalali/DeepGit.git
+cd DeepGit
+```
+
+#### 2. Create a Virtual Environment (Recommended)
+```bash
+python3 -m venv venv
+source venv/bin/activate   # On Windows: venv\Scripts\activate
+```
+
+#### 3. Upgrade pip (Optional but Recommended)
+```bash
+pip install --upgrade pip
+```
+
+#### 4. Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+#### 5. Run the Application
+```bash
+python app.py
+```
+
+
+### 🛠️ Troubleshooting
+
+- **Python Version:** Use Python 3.11 or higher as the repo has been tested on Python 3.11.x.
+- **pip Version:** Make sure you’re running pip 24.0 or later.
+- **Dependency Issues:** If you encounter any, try reinstalling in a new virtual environment.
+
+
+
 
 ### 🛠️ Running DeepGit
 
