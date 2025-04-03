@@ -11,6 +11,13 @@
 **DeepGit** is an advanced, Langgraph-based agentic workflow designed to perform deep research across GitHub repositories. It intelligently searches, analyzes, and ranks repositories based on user intent—even uncovering less-known but highly relevant tools. DeepGit infuses hybrid dense retrieval with advanced cross-encoder re-ranking and comprehensive activity analysis into a unified, open-source platform for intelligent repository discovery
 
 ---
+### Try out the Lite version here 🧑‍🎓
+
+DeepGit-lite is a lightweight version of DeepGit running on zero GPU on Hugging Face Space [here.](https://huggingface.co/spaces/zamal/DeepGit-lite) <br>
+It may not perform as well as the full version, but it's great for a quick first-hand preview.
+
+---
+
 
 ## ⚙️ How It Works — Agentic Workflow
 
@@ -100,7 +107,10 @@ pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-#### 5. Run the Application
+#### 5. 🚀 Running DeepGit via App
+
+To run DeepGit locally, simply execute:
+
 ```bash
 python app.py
 ```
@@ -126,13 +136,6 @@ langgraph dev
 ```
 This command opens the Langsmith dashboard where you can enter your raw queries in a JSON snippet and monitor the entire agentic workflow.
 
-### 🚀 Running DeepGit via App
-
-To run DeepGit locally, simply execute:
-
-```bash
-python app.py
-```
 
 ### DeepGit on Docker
 For instructions on using Docker with DeepGit, please refer to our [Docker Documentation](docs/docker.md).
