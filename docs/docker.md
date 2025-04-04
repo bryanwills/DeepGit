@@ -19,3 +19,13 @@ docker run -p 7860:7860 deepgit-app
 ```
 This command maps port 7860 from the container to your local machine, allowing you to access the Gradio interface of DeepGit in your web browser.
 
+### Important: Gradio Port Binding Fix
+
+Ensure that your app.py file includes the following line to allow external access from Docker:
+
+```bash
+demo.queue(max_size=10).launch(server_name="0.0.0.0", server_port=7860)
+```
+
+Without this fix, Gradio will bind to localhost inside the container, making it inaccessible from your browser.
+

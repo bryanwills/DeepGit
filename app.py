@@ -7,6 +7,14 @@ import logging
 from agent import graph  # Your DeepGit langgraph workflow
 
 # ---------------------------
+#Uncomment the lines below for MacOS users to avoid threading issues.
+#os.environ["TOKENIZERS_PARALLELISM"] = "false"
+#os.environ["OMP_NUM_THREADS"] = "1"
+#os.environ["MKL_NUM_THREADS"] = "1"
+# ---------------------------
+
+
+# ---------------------------
 # Global Logging Buffer Setup
 # ---------------------------
 LOG_BUFFER = []
